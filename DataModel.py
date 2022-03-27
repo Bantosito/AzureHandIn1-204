@@ -7,8 +7,8 @@ import calendar
 # Import af datamodel
 # ***************************************
 
-#githubpath = 'https://raw.githubusercontent.com/TueHellsternKea/dashdemo/main/data/'
-githubpath = './data/'
+githubpath = 'https://github.com/Bantosito/AzureHandIn1-204'
+#githubpath = './data/'
 
 # Import from Excel file, 4 different sheets
 df_customers = pd.read_excel(githubpath + "fake_data.xlsx", sheet_name="customers")
